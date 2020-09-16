@@ -1,0 +1,96 @@
+/* Bakgroundfärgen på body*/
+body {
+	font-family:calibri;
+	background-color:white;	
+}
+/*Rubriken*/
+* {
+	left:0;
+	right:0;
+}
+/*Navigation bar*/
+
+nav ul {
+	list-style-type:none;
+	overflow:hidden;
+	background-color:#dbdbdb;
+	left:0;
+	margin:0;
+	padding:0;
+	display:block;
+	text-transform:uppercase;
+}
+nav li {
+	float:left;
+}
+nav li a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	color:black;
+}
+nav li a:hover {
+	background-color:#b8b8b8;
+}
+/*Bestämmer färgen på den aktiva sidan*/
+nav li a.active {
+	border-bottom:solid;
+	border-color:#ababab;
+}
+/*Bestämmer innehållet*/
+.main {
+	height:100%;
+	width:85%;
+	float:right;
+	text-align:center;
+}
+.container {
+ 	 display: grid;
+ 	 grid-template-columns:auto auto auto;
+ 	 background-color:white;
+ 	 grid-column-gap:5px;
+ 	 grid-row-gap:10px;
+ 	 padding:10px;
+ 	 margin-left:10px;
+}
+.container2 {
+	display:grid;
+	grid-template-columns:auto auto;
+	text-align:center;
+	margin-left: 20px;
+}
+.text {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 margin:10px;
+	 padding:10px;
+}
+img {
+	width:350px;
+}
+
+/*Sidebar*/
+aside {
+	height:100%;
+	width:15%;
+	position:absolute;
+	left:0;
+	padding:20px;
+}
+/*Listan i sidbaren*/
+aside h2{
+	font-size:20px;
+}
+footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	text-align:center;
+	width:100%;
+	background-color:white;
+}
+footer h2{
+	font-size:12px;
+}
